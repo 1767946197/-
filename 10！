@@ -1,0 +1,15 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+	int x, y;
+	y = 1;
+	x = 2;
+	while (x <= 10)
+	{
+		y = x * y;
+		x = x + 1;
+	}
+	printf("%d\n", y);
+	return 0;
+}
